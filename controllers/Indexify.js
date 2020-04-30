@@ -26,8 +26,7 @@ module.exports = {
               status = 500;
               result.status = status;
               result.error = index.value;
-
-           
+          
             }
 
             res.status(status).send(result);
