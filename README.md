@@ -20,15 +20,15 @@ NODE_ENV=development
 # ENDPOINTS:
 
 
-1. api/v1/users [post]   [Used For Registration Purposes]
-2. api/v1/users [get]    [Retrieve all user's for Admin previliedges]
-3. api/v1/login [login]    [For Login purposes]
+1. api/v1/users [POST]   [Used For Registration Purposes]
+2. api/v1/users [GET]    [Retrieve all user's for Admin previliedges]
+3. api/v1/login [POST]    [For Login purposes]
 
-4. api/v1/next [get]    [Retrieve next index integer]
+4. api/v1/next [GET]    [Retrieve next index integer]
 
 # Reasons:
 
-api/v1 extension iss used to allow versioning of api endpoint purposes.
+api/v1 extension is used to allow versioning of api endpoint purposes.
 
 
 
