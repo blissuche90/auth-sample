@@ -4,7 +4,7 @@ const Schema = mongoose.Schema;
 
 const IndexSchema = new Schema({
   value: {
-    type: 'Integer',
+    type: 'Number',
     required: true,
     trim: true,
     unique: true

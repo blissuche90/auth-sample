@@ -54,7 +54,7 @@ module.exports = {
                 status = 200;
                 // Create a token
                 const payload = { user: user.email };
-                const options = { expiresIn: '2d', issuer: 'https://meetuchenna.com' };
+                const options = { expiresIn: '2d', issuer: 'https://localhost:3000' };
                 const secret = process.env.JWT_SECRET;
                 const token = jwt.sign(payload, secret, options);
 
