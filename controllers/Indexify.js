@@ -11,7 +11,6 @@ module.exports = {
       let result = {};
       let status = 200;
       if (!err) {
-        const payload = req.decoded;
       
           Indexify.find({}, (err, index) => {
               
@@ -24,11 +23,9 @@ module.exports = {
               result.error = err;
               result.result = 1;
             } else {
-              let nextvalue=index[0].value+1;
-
               status = 500;
               result.status = status;
-              result.error = nextvalue;
+              result.error = index.value;
 
            
             }
