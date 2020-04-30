@@ -12,8 +12,11 @@ Requires: node and mongoDB
 
 # SMAPLE ENV:
 JWT_SECRET=addjsonwebtokensecretherelikeQuiscustodietipsoscustodes
+
 MONGO_LOCAL_CONN_URL=mongodb://127.0.0.1:27017
+
 MONGO_DB_NAME=auth-test-andela
+
 NODE_ENV=development
 
 
